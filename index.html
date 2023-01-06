@@ -4,9 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Automotive Mechanic Services</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="assets/fonts/Segoe UI.woff" as="font" type="font/woff" crossorigin>
+    <link href="assets/fonts/Candara.ttf" as="font" type="font/ttf" crossorigin>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <div class="nav-header"> 
+                <div class="nav-items" id="myNavItems"> 
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li> 
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li> 
+                    </ul>
+                </div>
+                <div class="nav-btn">
+                    <button>Let's Fix Your Car</button>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="service-title">
+                    <h4>Automotive</h4>
+                    <h4>Mechanic Services</h4>
+                    <p>in Sawhaven, TX</p>
+                    <hr class="yellow-line">
+                    <p class="description">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz.</p>
+                    <div class="hero-btn">
+                        <button>Let's Fix Your Car</button>
+                    </div>
+                </div>
+                <div class="service-img">
+                    <img src="assets/img/service.png" alt="service">
+                </div>
+            </div>  
+        </header>
+    </div>
+    <section>
+        <div class="second-header">
+            <h2><i>How We Can </i><b>Help</b></h2>
+        </div>
+        <div class="specialize-description">
+            <div class="left-header-line"><hr></div>
+            <div class="specialize-content"><p >Some of the things we<br> <b>specialize</b> in </p></div>
+            <div class="right-header-line"><hr></div>
+        </div>
+        <div class="specialize-underline"><hr class="yellow-line"></div>
+        <div class="card">
+            <div class="card-item">
+                <p class="card-item-title">Maintaince</p>
+                <img src="assets/img/maintenance.png" alt="maintenaince">
+                <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz.</p>
+            </div>
+            <div class="card-item"><p class="card-item-title">Diagnostics</p>
+                <img src="assets/img/diagnostics.png" alt="maintenaince">
+                <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz.</p>
+            </div>
+            <div class="card-item"><p class="card-item-title">Repairs</p>
+                <img src="assets/img/repair.png" alt="maintenaince">
+                <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz.</p>
+            </div>
+        </div>
+        <hr class="card-footer-line">
+    </section>
+    <footer>
+        <div class="Quicklinks">
+            <h4>Quicklinks</h4>
+            <span><a href="#">Home</a></span>
+            <span><a href="#">About</a></span>
+            <span><a href="#">Pricing</a></span>
+            <span><a href="#">Services</a></span>
+        </div>
+        <div class="contact">
+            <div>
+                <h4>Shop Information</h4>
+                <p class="information">Address :</p>
+                <p>323 N Something Dr. LA90310</p>
+                <p class="information">Phone:</p>
+                <span>(323) 939-2000</span>
+            </div>
+            <div class="subscribe">
+                <h4>Subscribe</h4>
+                <p>Offers and Sales</p>
+                <input type="text"><br>
+                <div class="foot-btn"><button>Submit</button></div>
+                <br><br><br><br><br>
+            </div>
+        </div>
+    </footer>
+<script>
+    function myFunction(){
+            var nav=document.getElementById("myNavItems");
+            if(nav.className=="nav-items"){
+                nav.className+="responsive";
+            }
+            else{
+                nav.className="nav-items";
+            }
+        }
+</script>
 </body>
 </html>
+
+
+
+        
+        
